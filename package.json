@@ -10,6 +10,7 @@
     "basic-auth": "1.0.3",
     "body-parser": "1.12.3",
     "destroy": "1.0.3",
+    "dotenv": "^6.2.0",
     "express": "^4.13.3",
     "express-useragent": "0.1.9",
     "feed": "^0.3.0",
@@ -45,6 +46,7 @@
   },
   "scripts": {
     "start": "node bin/web.js",
+    "debug": "node --nolazy --inspect-brk=9229 bin/web.js",
     "test": "mocha --reporter list"
   }
 }
